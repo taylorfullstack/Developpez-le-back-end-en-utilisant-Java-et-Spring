@@ -185,7 +185,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/cdk@^14.0.0", "@angular/cdk@15.2.9":
+"@angular/cdk@^14.0.0", "@angular/cdk@>=15.0.0", "@angular/cdk@15.2.9":
   version "15.2.9"
   resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-15.2.9.tgz"
   integrity sha512-koaM07N1AIQ5oHU27l0/FoQSSoYAwlAYwVZ4Di3bYrJsTBNCN2Xsby7wI8gZxdepMnV4Fe9si382BDBov+oO4Q==
@@ -218,7 +218,7 @@
     symbol-observable "4.0.0"
     yargs "17.6.2"
 
-"@angular/common@^14.0.0", "@angular/common@^15.0.0 || ^16.0.0", "@angular/common@15.2.10":
+"@angular/common@^14.0.0", "@angular/common@^15.0.0 || ^16.0.0", "@angular/common@>=15.0.2", "@angular/common@15.2.10":
   version "15.2.10"
   resolved "https://registry.npmjs.org/@angular/common/-/common-15.2.10.tgz"
   integrity sha512-jdBn3fctkqoNrJn9VLsUHpcCEhCxWSczdsR+BBbD6T0oLl6vMrAVNjPwfBejnlgfWN1KoRU9kgOYsMxa5apIWQ==
@@ -248,17 +248,17 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^14.0.0", "@angular/core@^15.0.0 || ^16.0.0", "@angular/core@15.2.10":
+"@angular/core@^14.0.0", "@angular/core@^15.0.0 || ^16.0.0", "@angular/core@>=15.0.2", "@angular/core@15.2.10":
   version "15.2.10"
   resolved "https://registry.npmjs.org/@angular/core/-/core-15.2.10.tgz"
   integrity sha512-meGGidnitQJGDxYd9/LrqYiVlId+vGaLoiLgJdKBz+o2ZO6OmXQGuNw2VBqf17/Cc0/UjzrOY7+kILNFKkk/WQ==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/flex-layout@14.0.0-beta.40":
-  version "14.0.0-beta.40"
-  resolved "https://registry.npmjs.org/@angular/flex-layout/-/flex-layout-14.0.0-beta.40.tgz"
-  integrity sha512-lYi2BKovNk5u2wmj/AMIMqfUzCBEt99Wu/Gfa+1mUIlw3voKCmIsV2XYBhX4adRdD+dRagY3Opger43JR7PXEw==
+"@angular/flex-layout@15.0.0-beta.42":
+  version "15.0.0-beta.42"
+  resolved "https://registry.npmjs.org/@angular/flex-layout/-/flex-layout-15.0.0-beta.42.tgz"
+  integrity sha512-cTAPVMMxnyIFwpZwdq0PL5mdP9Qh+R8MB7ZBezVaN3Rz2fRrkagzKpLvPX3TFzepXrvHBdpKsU4b8u+NxEC/6g==
   dependencies:
     tslib "^2.3.0"
 
@@ -330,7 +330,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser@^14.0.0", "@angular/platform-browser@^15.0.0 || ^16.0.0", "@angular/platform-browser@15.2.10":
+"@angular/platform-browser@^15.0.0 || ^16.0.0", "@angular/platform-browser@>=15.0.2", "@angular/platform-browser@15.2.10":
   version "15.2.10"
   resolved "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-15.2.10.tgz"
   integrity sha512-9tbgVGSJqwfrOzT8aA/kWBLNhJSQ9gUg0CJxwFBSJm8VkBUJrszoBlDsnSvlxx8/W2ejNULKHFTXeUzq0O/+RQ==
