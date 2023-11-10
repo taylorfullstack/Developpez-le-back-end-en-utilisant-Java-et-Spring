@@ -1,5 +1,5 @@
 <div class="list">
-    <mat-card>
+    <mat-card appearance="outlined">
         <mat-card-header fxLayout="row" fxLayoutAlign="space-between center">
             <mat-card-title class="m0">Rentals available</mat-card-title>
             <button mat-raised-button color="primary" routerLink="create">
@@ -8,7 +8,7 @@
             </button>
         </mat-card-header>
         <div class="items mt2" fxLayout="row" fxLayout.lt-md="column">
-            <mat-card class="item" *ngFor="let rental of (rentals$ | async)?.rentals" fxFlex>
+            <mat-card appearance="outlined" class="item" *ngFor="let rental of (rentals$ | async)?.rentals" fxFlex>
                 <mat-card-header>
                     <mat-card-title>{{ rental.name }}</mat-card-title>
                     <mat-card-subtitle>
